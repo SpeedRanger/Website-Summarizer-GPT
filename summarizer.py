@@ -24,3 +24,4 @@ if(user_input):
 
     text_splitter = RecursiveCharacterTextSplitter(chunk_size = 500, chunk_overlap = 0)
     all_splits = text_splitter.split_documents(data)
+    
